@@ -59,7 +59,7 @@ with col2:
 
 os_type = st.selectbox('Operating System', (un["os_type"]),index=None,placeholder="Choose an option")
 
-pipe = pd.read_pickle("prediction.pkl")
+pipe = pd.read_pickle("predict.pkl")
 # pipe=       pickle.load(open("transform.pkl","rb"))
 # rf=pickle.load(open("random_forest.pkl","rb"))
 
