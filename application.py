@@ -41,7 +41,7 @@ with col1:
 if fast_charging == "yes":
    fast_charging =1
 else:
-   fast_charging="no"
+   fast_charging=0
 
 
 
