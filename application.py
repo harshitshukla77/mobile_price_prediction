@@ -37,14 +37,6 @@ with col1:
    processor_speed = st.selectbox('Processor Speed', (un["processor_speed"]),index=None,placeholder="Choose an option")
 
 
-
-if fast_charging == "yes":
-   fast_charging =1
-else:
-   fast_charging=0
-
-
-
 with col2:
 
    five_G = st.selectbox('5G', (un["5G"]),index=None,placeholder="Choose an option")
