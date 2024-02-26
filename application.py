@@ -1,7 +1,6 @@
 import streamlit as st
 import pickle
 import pandas as pd
-from sklearn.pipeline import Pipeline
 
 un= pd.read_pickle("unique_value_dict.pkl")
 
@@ -59,7 +58,7 @@ with col2:
 
 os_type = st.selectbox('Operating System', (un["os_type"]),index=None,placeholder="Choose an option")
 
-pipe = pd.read_pickle("predict.pkl")
+pipe = pd.read_pickle("pipe.pkl")
 # pipe=       pickle.load(open("transform.pkl","rb"))
 # rf=pickle.load(open("random_forest.pkl","rb"))
 
