@@ -25,15 +25,15 @@ with col1:
    
    fast_charging = st.selectbox('Fast Charging', (un["fast_charging"]),index=None,placeholder="Choose an option")
 
-   ram_capacity = st.selectbox('Ram', (un["ram_capacity"]),index=None,placeholder="Choose an option")
+   ram_capacity = st.selectbox('Ram (GB)', (un["ram_capacity"]),index=None,placeholder="Choose an option")
 
-   rom = st.selectbox('Rom', (un["rom"]),index=None,placeholder="Choose an option")
+   rom = st.selectbox('Rom (GB)', (un["rom"]),index=None,placeholder="Choose an option")
    
    processor_name = st.selectbox('Name of processor', (un["processor_name"]),index=None,placeholder="Choose an option")
 
    processor_cores = st.selectbox('Cores of processor', (un["processor_cores"]),index=None,placeholder="Choose an option")
 
-   processor_speed = st.selectbox('Processor Speed', (un["processor_speed"]),index=None,placeholder="Choose an option")
+   processor_speed = st.selectbox('Processor Speed (GHz)', (un["processor_speed"]),index=None,placeholder="Choose an option")
 
 
 with col2:
@@ -42,19 +42,19 @@ with col2:
 
    nfc = st.selectbox('NFC',(un["nfc"]),index=None,placeholder="Choose an option")
    
-   rear_camera = st.selectbox('Rear Camera', (un["rear_camera"]),index=None,placeholder="Choose an option")
+   rear_camera = st.selectbox('Rear Camera (MP)', (un["rear_camera"]),index=None,placeholder="Choose an option")
    
    rear_camera_count = st.selectbox('Number of Rear Camera', (un["rear_camera_count"]),index=None,placeholder="Choose an option")
    
-   front_camera = st.selectbox('Front Camera', (un["front_camera"]),index=None,placeholder="Choose an option")
+   front_camera = st.selectbox('Front Camera (MP)', (un["front_camera"]),index=None,placeholder="Choose an option")
 
    front_camera_count = st.selectbox('Number Of Front Camera', (un["front_camera_count"]),index=None,placeholder="Choose an option")
 
    screen_size = st.selectbox('Size of Screen', (un["screen_size"]),index=None,placeholder="Choose an option")
    
-   pixel1 = st.selectbox('pixel1', (un["pixel1"]),index=None,placeholder="Choose an option")
+   pixel1 = st.selectbox('Screen Resolution (pixel1)', (un["pixel1"]),index=None,placeholder="Choose an option")
 
-   pixel2 = st.selectbox('pixel2', (un["pixel2"]),index=None,placeholder="Choose an option")
+   pixel2 = st.selectbox('Screen Resolution (pixel2)', (un["pixel2"]),index=None,placeholder="Choose an option")
 
 os_type = st.selectbox('Operating System', (un["os_type"]),index=None,placeholder="Choose an option")
 
