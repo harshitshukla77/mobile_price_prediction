@@ -1,4 +1,4 @@
-altair==5.2.0
+﻿altair==5.2.0
 attrs==23.2.0
 blinker==1.7.0
 cachetools==5.3.2
@@ -19,7 +19,7 @@ MarkupSafe==2.1.5
 mdurl==0.1.2
 numpy==1.26.4
 packaging==23.2
-pandas==2.2.1
+pandas==2.2.0
 pillow==10.2.0
 protobuf==4.25.3
 pyarrow==15.0.0
