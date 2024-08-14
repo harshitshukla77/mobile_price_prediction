@@ -6,6 +6,10 @@ https://mobilepriceprediction-harsh3it557shukla.streamlit.app/
 # Problem Statement 
 
 The mobile phone market is highly competitive, with numerous models released each year, varying widely in features and prices. Consumers often find it challenging to assess whether a mobile phone's price is justified based on its features. Additionally, manufacturers and retailers need to price their products competitively while maximizing profit. This project aims to develop a predictive model that can estimate the price of a mobile phone based on its features, helping both consumers and businesses make informed decisions.
+<p align = "center">
+<img src ="https://github.com/user-attachments/assets/ef610f48-67ef-4e12-82ff-20d0207cdab1">
+</p>
+
 
 # Project Summary 
 
